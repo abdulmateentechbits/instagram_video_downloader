@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
-const instagramGetUrl = require("instagram-url-direct")
+const instagramGetUrl = require("instagram-url-direct");
+
+const hostname = "0.0.0.0"
+
 
 app.get('/download', async (req, res) => {
   const url = req.query.url;
