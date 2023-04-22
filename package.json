@@ -2,7 +2,7 @@
   "name": "node-ig-dlod",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node scraper.js",
     "test": "jest --verbose --runInBand"
